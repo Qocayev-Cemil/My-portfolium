@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    padding-top: 8px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    padding-left: 14px;
+    color: black;
+    font-size: 18px;
+    font-family: bold;
+}
+
+.all-content {
+    max-width: 1480px;
+    width: 100%;
+    display: flex;
+}
+
+
+/* Left-nav design start */
+
+.left-nav {
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    overflow-y: scroll;
+    background-color: rgb(255, 245, 225);
+}
+
+.div-left-prorfil {
+    padding: 22px;
+    display: flex;
+    gap: 18px;
+    flex-direction: column;
+}
+
+.left-nav img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+ul {
+    padding: 0;
+}
+
+li:hover a {
+    color: #ffffff;
+}
+
+.div-img {
+    width: 150px;
+    height: 150px;
+}
+
+a:hover i {
+    color: #009688;
+}
+
+.div-right {
+    position: absolute;
+    width: 80%;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.card:hover img {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.hr {
+    height: 9px;
+    width: 100%;
+    background-color: rgb(163, 156, 156);
+}
+
+.filtr {
+    display: flex;
+    >li {
+        padding: 8px;
+        background-color: rgb(177, 173, 173);
+    }
+    gap: 4px;
+}
+
+li:hover {
+    background-color: black;
+    >a {
+        color: white;
+    }
+}
+
+.top {
+    display: flex;
+    gap: 8px;
+    padding: 8px;
+}
+
+.botom {
+    display: flex;
+    gap: 8px;
+    padding: 8px;
+}
+
+.card {
+    width: 27rem;
+}
+
+.paddination {
+    display: flex;
+    justify-content: center;
+}
+
+.profil-card {
+    width: 100%;
+    height: 60vh;
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.progress {
+    height: 25px;
+}
+
+.gp {
+    padding-top: 35px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.list-group-item:hover {
+    background-color: rgb(232, 228, 228);
+}
